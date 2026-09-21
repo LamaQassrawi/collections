@@ -1,0 +1,16 @@
+.collections{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    text-align: center;
+
+}
+.collection{
+    width :calc( ( 100% - 90px ) / 4 );
+}
+.collection img{
+    width: 100%;
+}
+.collection h2{
+    margin-top: 23px;
+}
