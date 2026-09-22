@@ -1,5 +1,23 @@
-.collections{
+.header{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    padding: 21.84px 0;
+    align-items:center;
+}
+.list ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px; 
+}
+.icon ul{
+     display: flex;
+    flex-wrap: wrap;
+    gap: 24px; 
+}
+
+.collections{
+     display: flex;
     flex-wrap: wrap;
     gap:30px;
     text-align: center;
